@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #6a11cb;
+            transform: scale(1.1);
+        }
+        .container {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            color: #2575fc;
+            text-transform: uppercase;
+        }
+        .project {
+            margin: 2rem auto;
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            background: #6a11cb;
+            color: #fff;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Professional Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm majed, a I am a passionate learner with a strong dedication to mastering DevOps engineering. I thrive in solving complex problems and building scalable solutions.
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Details about this professional project go here.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Details about this professional project go here.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Details about this professional project go here.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">aalsufyani.majed@gmail.com</a></p>
+            <p>Phone: 0598992139</p>
+            <p>Follow me on <a href="#">LinkedIn</a> | <a href="#">GitHub:https://github.com/Majed-10/</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved. Designed with excellence.</p>
+    </footer>
+</body>
+</html>
